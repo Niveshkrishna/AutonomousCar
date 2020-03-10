@@ -19,7 +19,7 @@ project directory:
     - description -> This angle will be used to drive the stepper motor which controls the steering of car
 - Motor speed: 
     - variable_name -> motor_speed 
-    - range -> 0 to 1
+    - range -> -1 to 1
     - description -> This will be multiplied with a contant value to give the required motor speed. Motors mounted at the rear car will be powering the car based on this value
 - Object severity:
     - variable_name -> object_severity
