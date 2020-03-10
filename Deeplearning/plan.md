@@ -14,14 +14,14 @@ project directory:
 
 # Driving Parameters:
 - Steering angle: 
-    variable_name -> steering_angle 
-    range -> -30 to +30 degrees with 0 degrees being co-linear with x-axis
-    description -> This angle will be used to drive the stepper motor which controls the steering of car
+    - variable_name -> steering_angle
+    - range -> -30 to +30 degrees with 0 degrees being co-linear with x-axis
+    - description -> This angle will be used to drive the stepper motor which controls the steering of car
 - Motor speed: 
-    variable_name -> motor_speed 
-    range -> 0 to 1
-    description -> This will be multiplied with a contant value to give the required motor speed. Motors mounted at the rear car will be powering the car based on this value
+    - variable_name -> motor_speed 
+    - range -> 0 to 1
+    - description -> This will be multiplied with a contant value to give the required motor speed. Motors mounted at the rear car will be powering the car based on this value
 - Object severity:
-    variable_name -> object_severity
-    range -> 0 to 1
-    description -> Detect objects and classify them based on severity, for Ex: Red signal has 1 severity, green signal has 0 severity, object on lane and signages has some severity. Based on severity, steering_angle and motor_speed will vary
+    - variable_name -> object_severity
+    - range -> 0 to 1
+    - description -> Detect objects and classify them based on severity, for Ex: Red signal has 1 severity, green signal has 0 severity, object on lane and signages has some severity. Based on severity, steering_angle and motor_speed will vary
